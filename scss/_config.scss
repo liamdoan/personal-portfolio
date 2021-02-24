@@ -2,7 +2,7 @@ $primary-color: #444;
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background_opacity: 0.7;
+$background_opacity: 0.6;
 
 // create fading function
 @mixin easeout {
@@ -17,7 +17,7 @@ $background_opacity: 0.7;
       background-size: cover;
 
       // .overlay could be used too for the fading layer effect
-      // used 'after' so the process do the next task after #bg-img
+      // used after so the process do the next task after #bg-img
       &:after {
         content: "";
         position: fixed;
